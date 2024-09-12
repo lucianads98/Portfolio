@@ -1,0 +1,142 @@
+body {
+    background-image: url("fondo5.jpg");
+  }
+  
+  #text-content {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(185, 185, 185, 0.473);
+    padding: 10px;
+    font: message-box;
+  }
+
+  h1 {
+    color: rgb(37, 37, 35);
+    text-align: center;
+  }
+  
+  h2 {
+    color: rgb(37, 37, 35);
+    text-align: center;
+  }
+  p {
+    color: #111 ;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  p.descripcion {
+    color: #111 ;
+    text-align: center;
+    font-size: 20px;  
+  }
+
+  p.personalidad {
+    color: #111 ;
+    text-align: center;
+    font-size: 20px;
+
+  }
+ 
+  #padd{
+    padding: 0% 40% 0% 40%;
+
+  }
+
+  .contact-column {
+     width: 50%;
+     display: table-cell;
+     font: message-box;
+  }
+  
+  
+  .imgstyle {
+    width: 35px;
+    height: 35px;
+  }
+
+  p#linkedn {
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  p#whatsapp {
+    color: grey ;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  footer {
+    background-color: #111;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font: message-box;
+  }
+  
+  li {
+    float: left;
+    font: message-box;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font: message-box;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  /* Estilos generales */
+body {
+  font-size: 16px;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 600px) {
+  body {
+      font-size: 14px;
+  }
+  
+  .container {
+      padding: 10px;
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+      font-size: 15px;
+  }
+  
+  .container {
+      padding: 20px;
+  }
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 1025px) {
+  body {
+      font-size: 16px;
+  }
+  
+  .container {
+      padding: 30px;
+  }
+}
